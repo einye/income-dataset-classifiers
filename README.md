@@ -22,11 +22,11 @@ git clone https://github.com/einye/income-dataset-classifiers.git
 cd income-dataset-classifiers
 
 # (Recommended) Create a virtual environment
-python3 -m venv venv
+python3.12 -m venv venv         #Created on Python 3.12
 source venv/bin/activate        # Windows: venv\Scripts\activate
 
 # Install dependencies
-pip install pandas numpy matplotlib seaborn scikit-learn jupyter
+pip install -r requirements.txt
 ```
 ## Acknowledgements
 
